@@ -1,0 +1,21 @@
+oFirst, repo has to be created on github (or use curl)
+
+Local folder setup:
+git init
+--- 
+git add #files to staging area
+git commit -m "Message"
+git remote add origin /url/https://github.com/user/repo.git
+git push -u origin master
+
+Branching:
+git branch -a #to show all branches
+git fetch -p #to refetch branches and delete nonexisting remotely
+git checkout -b "branch name" #to change, or create and change, local branch
+git push -u origin lclname:rmname #push to selected non-lclnamed branch
+git push origin ... #push to tracked
+git branch -d lclbranch #delete lclbranch
+git push origin --delete rmbranch #rm remote branch
+ 
+
+ 
